@@ -1,0 +1,376 @@
+/* 
+
+font list 
+====================
+
+1. font-family: 'Be Vietnam Pro', sans-serif;
+2. font-family: 'Inter', sans-serif;
+*/
+
+/* common css  */
+.container{
+    width: 1180px;
+    margin: auto;
+
+}
+.container-max{
+    width: 1300px;
+    margin: auto;
+}
+.primary{
+    color: #0300AD;
+ ;
+}
+
+/* home page design  */
+
+/* header section css  start */
+.header-section{
+    margin-top: 54px;
+}
+.list-item {
+    display: flex;
+    justify-content: end;
+
+
+}
+.list-item li{
+    list-style: none;
+    ;
+}
+.list-item li a{
+    font-size: 24px;
+    font-family: Inter;
+    font-style: 400;
+    line-height: 24px;
+    text-decoration: none;
+    margin-left:38px ;
+    color: #000000;
+}
+
+
+/* header section css  end */
+
+
+
+/* banner section css start  */
+
+.banner-section{
+    background-image: url("/img/banner.png");
+    height: 1024px;
+    background-position:center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: -100px;
+}
+.banner{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.banner-info{
+  
+    margin-top: 25%;
+    margin-left: 15%;
+    
+}
+.banner-info h1{
+    font-family: 'Be Vietnam Pro', sans-serif;
+    font-style: Regular;
+    font-size: 140px;
+    line-height: 50%;
+   
+
+}
+.banner-info p{
+
+  font-size: 35px;
+  font-style: Regular; 
+  width: 586px; 
+  font-family: 'ietnam Pro', sans-serif;
+   line-height: 45px;
+ 
+
+}
+
+
+
+
+/* banner section css end */
+
+/* uber section css start  */
+
+
+
+
+.uber-section{
+    background-image: url("/img/banner-bottom.png");
+    height: 1024px;
+    background-position:center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.uber-info{
+   
+    display: flex;
+    flex-direction: column;
+  
+    justify-content: center;
+    height: 100%;
+
+}
+.uber-info h1{
+    font-family: 'Be Vietnam Pro', sans-serif;
+  font-size: Regular;
+  font-size: 70px;
+  line-height: 103px;
+
+}
+.uber-info p{
+      font-family: 'Be Vietnam Pro', sans-serif;
+      font-style: Regular;
+      font-size: 35px;
+      line-height: 50px;
+  
+}
+.people-section{
+    background-image: url("/img/People.jfif");
+    height: 1024px;
+    background-position:center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+/* uber section css end */
+
+
+
+/* mehr section start  */
+.mehr-section{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.mehr{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-column-gap: 190px;
+    grid-row-gap: 37px;
+}
+.mehr p {
+      font-family: 'Be Vietnam Pro', sans-serif;
+      font-size: 24px;
+      font-style: normal;
+      line-height: 30px;
+}
+
+
+.mehr-collum-1{
+    padding: 25px;
+    box-shadow:15px 15px 8px rgba(0, 0, 0, 0.25);
+     background-color: rgba(0, 0, 0, 0.25);
+       width: 480px;
+    height: 341px;
+}
+.mehr-collum-2{
+    
+    box-shadow:15px 15px 8px rgba(0, 0, 0, 0.25);
+    background-image: url("/img/office-one.jfif");
+    background-position: center;
+    background-size: cover;
+      width: 480px;
+    height: 341px;
+    padding: 25px;
+}
+.mehr-collum-3{
+    
+    box-shadow:15px 15px 8px rgba(0, 0, 0, 0.25);
+    background-image: url("/img/office-two.jfif");
+    background-position: center;
+    background-size: cover;
+    width: 480px;
+    height: 341px;
+    padding: 25px;
+}
+
+
+/* mehr section end */
+
+
+/* meine section start  */
+
+
+.meine-section{
+
+    background-image: url("/img/banner-three.png");
+    height: 1124px;
+    background-position:center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+
+}
+.meine-title{
+    font-family: Be Vietnam;
+    font-style: normal;
+    font-size: 70px;
+    line-height: 103px;
+    padding-top: 80px;
+ 
+}
+.meine-1{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-left: 10%;
+    grid-column-gap: 240px;
+    
+
+}
+.meine-2{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-right: 10%;
+      grid-column-gap: 210px;
+      margin-top: 103px;
+
+
+}
+.meine-1-collum-1{
+    box-shadow:15px 15px 8px rgba(0, 0, 0, 0.25);
+    background-image: url("/img/Gitter.jfif");
+    background-position: center;
+    background-size: cover;
+     width: 341px;
+    height: 480px;
+    margin-top: -68px;
+     box-shadow:0px  15px 8px rgba(0, 0, 0, 0.25);
+       padding: 25px;
+       transform: rotate(-90deg);
+}
+.meine-2-collum-2{
+    box-shadow:15px 15px 8px rgba(0, 0, 0, 0.25);
+    background-image: url("/img/office-three.jfif");
+    background-position: center;
+    background-size: cover;
+     width: 480px;
+    height: 341px;
+     box-shadow:15px 15px 8px rgba(0, 0, 0, 0.25);
+       padding: 25px;
+}
+.meine-1-collum-2{
+  
+   width: 480px;
+    height: 341px;
+    font-family: Be Vietnam;
+    font-style: normal;
+    font-size: 35px;
+     box-shadow:15px 15px 8px rgba(0, 0, 0, 0.25);
+      background-color: rgba(255, 199, 0, 0.2);
+        padding: 25px;
+
+}
+.meine-2-collum-1{
+    
+     width: 480px;
+    height: 341px;
+    font-family: Be Vietnam;
+    font-style: normal;
+    font-size: 35px;
+    background-color: rgba(45, 220, 244, 0.2);
+     box-shadow:15px 15px 8px rgba(0, 0, 0, 0.25);
+       padding: 25px;
+}
+/* meine section end  */
+
+.meine-section-two{
+
+    background-image: url("/img/Banner-four.png");
+    height: 1024px;
+    background-position:center;
+    background-repeat: no-repeat;
+    background-size: cover;
+ 
+    padding-top: 152px;
+    
+
+}
+
+.meine-section-two-collum-1{
+    
+     width: 480px;
+    height: 341px;
+    font-family: Be Vietnam;
+    font-style: normal;
+    font-size: 35px;
+    background-color: rgba(224, 108, 0, 0.2);
+     box-shadow:15px 15px 8px rgba(0, 0, 0, 0.25);
+       padding: 25px;
+}
+.meine-section-two-collum-2{
+  
+   width: 480px;
+    height: 341px;
+    font-family: Be Vietnam;
+    font-style: normal;
+    font-size: 35px;
+     box-shadow:15px 15px 8px rgba(0, 0, 0, 0.25);
+      background-color: rgba(3, 0, 173, 0.2);
+        padding: 25px;
+
+}
+
+
+.meine-section-two-collum-1-img {
+    box-shadow:15px 15px 8px rgba(0, 0, 0, 0.25);
+    background-image: url("/img/runner.jfif");
+    background-position: center;
+    background-size: cover;
+     width: 480px;
+    height: 341px;
+     box-shadow:0px  15px 8px rgba(0, 0, 0, 0.25);
+       padding: 25px;
+}
+.meine-section-two-collum-2-img{
+    box-shadow:15px 15px 8px rgba(0, 0, 0, 0.25);
+    background-image: url("/img/gamer.jfif");
+    background-position: center;
+    background-size: cover;
+     width: 480px;
+    height: 341px;
+     box-shadow:15px 15px 8px rgba(0, 0, 0, 0.25);
+       padding: 25px;
+}
+
+
+
+/* footer section  */
+
+.footer-section{
+    background: #010043;
+    height: 179px;
+    margin-top: -20px;
+}
+.footer-section ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 179px;
+  
+
+   
+}
+.footer-section ul li{
+    color: white;
+    font-style: normal;
+    font-family: Be Vietnam;
+    line-height: 50px;
+    list-style: none;
+
+    font-size: 35px;
+    display: flex;
+    justify-content: center;
+
+}
+.icon{
+    font-size:63px;
+    height:64px;
+    margin-right: 20px;
+   
+}
